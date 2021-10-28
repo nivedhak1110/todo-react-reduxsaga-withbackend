@@ -1,0 +1,49 @@
+ctrl+shift+F
+
+higher order comp
+smart dumb  
+redux tool kit
+redux saga
+
+Dumb components:
+***************
+Dumb components are also called ‘presentational’ components because their only responsibility is to present something to the DOM. Once that is done, the component is done with it. 
+Nope. Put the info on the page and move on.
+A ‘hello world’ component can be thought of as the most basic dumb component. 
+Or entire sections of a website such as a header or footer. 
+The component can be written in one place and used several times throughout the app, just rendering it’s heart out, and each instance of that component will look the same.
+
+
+smartcomponents:
+****************
+Smart components (or container components) on the other hand have a different responsibility.
+ Because they have the burden of being smart, they are the ones that keep track of state and care about how the app works.
+The container components do the heavy lifting and pass the data down to the presentational components as props.
+The root component off an app is a good example of a smart component.
+
+Higher order components:
+************************
+Higher-order components (HOCs) in React were inspired by higher-order functions in JavaScript.
+A HOC is an advanced technique for reusing logic in React components. 
+It is a pattern created out of React’s compositional nature.
+
+HOCs basically incorporate the don’t-repeat-yourself (DRY) principle of programming, 
+which you’ve most likely come across at some point in your career as a software developer. 
+It is one of the best-known principles of software development, and observing it is very important when building an application or writing code in general.
+
+example
+Higher-order functions in JavaScript take some functions as arguments and return another function. 
+higher-order functions are the following:
+
+.forEach()
+This iterates over every element in an array with the same code, but does not change or mutate the array, and it returns undefined.
+.map()
+This method transforms an array by applying a function to all of its elements, and then building a new array from the returned values.
+.reduce()
+This method executes a provided function for each value of the array (from left to right).
+.filter()
+This checks every single element in an array to see whether it meets certain criteria as specified in the filter method, and then it returns a new array with the elements that match the criteria.
+
+What Is A Higher-Order Component? 
+A higher-order component (HOC) is an advanced element for reusing logic in React components.
+Components take one or more components as arguments, and return a new upgraded component.
